@@ -46,6 +46,7 @@ public class UserController {
         System.out.println(login);
         System.out.println("master-test");
         System.out.println("hot-fix");
+        System.out.println("hot-fix");
         if(login != null) {
             return 1;
         } else {
