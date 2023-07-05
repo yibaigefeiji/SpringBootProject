@@ -42,7 +42,7 @@ public class UserController {
         User login = userService.login(username, password);
 
         System.out.println(login);
-
+        System.out.println(login);
         if(login != null) {
             return 1;
         } else {
